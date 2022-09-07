@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AzuurrnodockOtApplication {
 
-	@GetMapping
+	@GetMapping("/us")
 	public String print() 
 	{return "Hello Azure and Github";}
 	
